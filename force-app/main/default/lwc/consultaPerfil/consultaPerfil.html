@@ -1,0 +1,46 @@
+<template>
+    <lightning-card icon-name="standard:search" variant="Narrow" title="User Search">
+        <div class="slds-p-around_small">
+            <lightning-input
+                label="Search Users"
+                value={searchKey}
+                onchange={handleSearchKeyChange}
+            ></lightning-input>
+            <div class="slds-m-bottom_small"></div>
+            <lightning-button
+                label="Search"
+                onclick={handleSearch}
+                class="slds-m-top_small"
+            ></lightning-button>
+        </div>
+        <template if:true={users.length}>
+            <ul class="slds-list_dotted slds-p-top_medium">
+                <template for:each={users} for:item="user">
+                    <li key={user.Id} class="slds-m-bottom_medium">
+                        <p><strong>Name:</strong> {user.Name}</p>
+                        <p>
+                            <strong>Active: </strong>
+                            <lightning-icon 
+                                icon-name={user.activeIcon} 
+                                alternative-text="Active Status" 
+                                size={user.iconSize}
+                                variant={user.iconVariant}
+                                class={user.iconClass}> <!-- Aplicando a classe e o tamanho do ícone -->
+                                
+                            </lightning-icon>
+                        </p>
+                        <p><strong>Permission Sets:</strong> {user.PermissionSets}</p>
+                        <p><strong>Email:</strong> {user.Email}</p>
+                        <p><strong>Phone:</strong> {user.Phone}</p>
+                        <p><strong>Role:</strong> {user.Role}</p> <!-- Adicionado: Exibe Role -->
+                        <p><strong>Manager:</strong> {user.Manager}</p> <!-- Adicionado: Exibe Manager -->
+                        <p><strong>Profile:</strong> {user.ProfileName}</p>
+                    </li>
+                </template>
+            </ul>
+        </template>
+        <template if:true={error}>
+            <p>Error: {error}</p>
+        </template>
+    </lightning-card>
+</template>
