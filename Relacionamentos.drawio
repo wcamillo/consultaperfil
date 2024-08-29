@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.8">
   <diagram name="Página-1" id="YK-ig7AD2aSwV2ss6W18">
-    <mxGraphModel dx="794" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="794" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -84,6 +84,57 @@
         </mxCell>
         <mxCell id="ksj_w1xIKO7h_LKjEYjP-23" value="Relacionamento apenas com Account" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="590" y="330" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ksj_w1xIKO7h_LKjEYjP-29" value="FIELDS OF ACCOUNT" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="30" y="520" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ksj_w1xIKO7h_LKjEYjP-30" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Asset&lt;/h1&gt;&lt;p&gt;Service Account&lt;/p&gt;&lt;p&gt;Billing Account&lt;/p&gt;&lt;p&gt;Contact&lt;/p&gt;&lt;p&gt;Contract&lt;/p&gt;&lt;p&gt;Opportunidade&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="180" y="520" width="180" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="ksj_w1xIKO7h_LKjEYjP-33" value="Opportunity" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="440" y="500" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ksj_w1xIKO7h_LKjEYjP-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.004;entryY=0.112;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ksj_w1xIKO7h_LKjEYjP-33" target="ksj_w1xIKO7h_LKjEYjP-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ksj_w1xIKO7h_LKjEYjP-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.011;entryY=0.544;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ksj_w1xIKO7h_LKjEYjP-29" target="ksj_w1xIKO7h_LKjEYjP-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ksj_w1xIKO7h_LKjEYjP-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.688;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ksj_w1xIKO7h_LKjEYjP-36" target="ksj_w1xIKO7h_LKjEYjP-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ksj_w1xIKO7h_LKjEYjP-36" value="FIELDS OF CONTRACT" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="30" y="800" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ksj_w1xIKO7h_LKjEYjP-37" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Opportunity&lt;/h1&gt;&lt;p&gt;Frame Contract&lt;/p&gt;&lt;p&gt;Originating Contract&lt;/p&gt;&lt;p&gt;Contract&lt;/p&gt;&lt;p&gt;Contract MSA&lt;/p&gt;&lt;p&gt;Contact&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="180" y="800" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ksj_w1xIKO7h_LKjEYjP-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="ksj_w1xIKO7h_LKjEYjP-39" target="ksj_w1xIKO7h_LKjEYjP-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ksj_w1xIKO7h_LKjEYjP-39" value="Contact" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="440" y="800" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ksj_w1xIKO7h_LKjEYjP-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="ksj_w1xIKO7h_LKjEYjP-42" target="ksj_w1xIKO7h_LKjEYjP-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ksj_w1xIKO7h_LKjEYjP-42" value="FIELDS OF ACCOUNT" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1080" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ksj_w1xIKO7h_LKjEYjP-43" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Order&lt;/h1&gt;&lt;p&gt;Account Name(Account)&lt;/p&gt;&lt;p&gt;Asset&lt;/p&gt;&lt;p&gt;Billing Account(Account)&lt;/p&gt;&lt;p&gt;Bill to Contact(Contact)&lt;/p&gt;&lt;p&gt;Contato(Contact)&lt;/p&gt;&lt;p&gt;Opportunity(Opportunity)&lt;/p&gt;&lt;p&gt;Service Account(Account)&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1080" width="180" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="ksj_w1xIKO7h_LKjEYjP-44" value="FIELDS OF CONTACT" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1185" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ksj_w1xIKO7h_LKjEYjP-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="ksj_w1xIKO7h_LKjEYjP-45" target="ksj_w1xIKO7h_LKjEYjP-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ksj_w1xIKO7h_LKjEYjP-45" value="FIELDS OF OPPORTUNITY" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1290" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ksj_w1xIKO7h_LKjEYjP-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.019;entryY=0.597;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="ksj_w1xIKO7h_LKjEYjP-44" target="ksj_w1xIKO7h_LKjEYjP-43">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
